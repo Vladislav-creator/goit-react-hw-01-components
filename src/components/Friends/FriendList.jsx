@@ -2,7 +2,7 @@ import css from './Friends.module.css';
 import PropTypes from 'prop-types';
 
 export const FriendList = ({ friends }) => {
-   console.log(friends);
+  //  console.log(friends);
 
   return (
     <div className={css.friends}>
@@ -21,9 +21,13 @@ export const FriendList = ({ friends }) => {
   );
 };
 
-FriendList.propTypes = {
-  avatar: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  isOnline: PropTypes.bool.isRequired,
-  id: PropTypes.number.isRequired,
-};
+// FriendList.propTypes = {
+//   friends: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       id: PropTypes.number.isRequired,
+//       avatar: PropTypes.string.isRequired,
+//       name: PropTypes.string.isRequired,
+//       isOnline: PropTypes.bool.isRequired,
+//     }),
+//   ),
+// };
