@@ -14,7 +14,7 @@ body {
   align-content: center;
   align-items: center;
   padding: 30px;
-  background-color: #c6cccc29;
+  background-color: #f7f8fa29;
 }
 
 code {
@@ -33,4 +33,9 @@ p {
 h2 {
   display: block;
   margin: 0;
+}
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
