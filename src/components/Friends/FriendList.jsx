@@ -2,7 +2,7 @@ import css from './Friends.module.css';
 import PropTypes from 'prop-types';
 
 export const FriendList = ({ friends }) => {
-  // console.log(friends);
+   console.log(friends);
 
   return (
     <div className={css.friends}>
